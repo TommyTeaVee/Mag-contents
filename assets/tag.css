@@ -1,0 +1,301 @@
+.header {
+  background-image: url("1000_.jpg");
+  background-size: cover;
+  background-color:#151515#151515
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+body{
+  margin: 0;
+}
+.overlay{
+  background-color:black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left:0;
+  top:0;
+  opacity:0.5;
+}
+.container {
+  margin: 0 auto;
+  width: 1110px;
+}
+.log {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #eaecf1;
+  opacity: 0.9;
+}
+.llo {
+  display: inline-block;
+  margin-left: 24px;
+
+}
+li a {
+  display: inline-block;
+  text-align: initial;
+  color: #0c0c0c;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: cursive;
+}
+li a:hover {
+  color: #a44486;
+}
+.mm {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 14px;
+  margin-top: -41px;
+}
+.mm li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.writing {
+  
+
+  opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+.title {
+  font-size: 72px;
+  font-family: none;
+  color: #fff;
+  margin: 0;
+  line-height: 1em;
+}
+
+.butn1 {
+  background-color: #bb0e0e;
+  font-size: 17px;
+  border-radius: 16px;
+  margin-top: auto;
+  padding: 13px 20px;
+  color: #f7f3f1;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  cursor: pointer;
+}
+#menu{
+  margin-bottom:40px;
+}
+.pp {
+  font-size: 30px;
+    color: #fff;
+}
+.wri{
+  margin-top: -45px;
+  animation: 3s anim-lineUp 1;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);}
+  }
+
+
+.image {
+  width: 100%;
+    height: 85%;
+    border-radius: 17px;
+}
+.h44{
+  margin-left:50px;
+}
+.menu1 {
+  background-color: #d3d5d6;
+    width: 44%;
+    margin-left: 41px;
+    margin-top: 17px;
+    display: inline-block;
+    border-radius: 17px;
+    animation:fall 8s 1;
+    animation-duration: 5s;
+}
+@keyframes fall{
+  from {
+    margin-top: 100%;
+    width: 44%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 44%;
+  }
+}
+
+.menu2 {
+  display: inline-block;
+    margin-left: 70px;
+    animation-duration: 7s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.h22{
+  font-family: "Playfair Display", Sans-serif;
+    font-size: 45px;
+    margin-left: 85px;
+
+}
+.span2{
+  
+  background-color: transparent;
+    background-image: linear-gradient(90deg, #FF3C00 7%, #CC00FF 100%);
+}
+.menu3{
+  width: 26%;
+  position: relative;
+  min-width: 201px;
+  margin: 0 38px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 17px;
+  height: 63%px;
+  background-color: #cfcfcf;
+  animation:mall 11s 1;
+    animation-duration: 4s;
+}
+@keyframes mall{
+  from {
+    margin-top: 50%;
+    width: 26%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 26%;
+  }
+}
+
+.imageee {
+  width: 73%;
+    height: 45%;
+  margin-left: 36px;
+  margin-top: 31px;
+  border-radius: 17px;
+}
+.menu3:hover img{
+  width: 225px;
+}
+#Services{
+  background-color:#070709;
+  margin: 0px;
+  width: 100%;
+  padding-top: 20px;
+  height: 100vh;
+  
+}
+.span4{webkit-text-fill-color: transparent
+  color:#fff;
+  box-sizing: border-box;
+  
+  background-color: transparent;
+    background-image: linear-gradient(90deg, #FF3C00 7%, #CC00FF 100%);
+}
+.hh1{
+  font-size: 47px;
+    color: #fff;
+    margin-top: 28px;
+
+}
+.h3{
+  margin-left: 120px;
+    font-size: 21px;
+  
+
+}
+.hh{
+width: 40%;
+margin: 0 auto;
+}
+.box{
+  display: flex;
+  
+  
+}
+.box1{
+  display: block;
+    padding: 0 20px;
+    width: 30%;
+}
+.box2{
+  font-size:15px;
+  margin-top:5px;
+  color: #fff;
+
+}
+.hh5{
+  color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.foo{
+  font-size: 30px;
+    color: #000;}
+
+.foot{
+  font-size: 25px;
+  margin: 0 auto;
+  width: 31%;
+  font-family: sans-serif;
+}
+footer a {
+  color:linear-gradient(90deg, #FF3C00 7%, #CC00FF 100%);
+  text-decoration:none;
+}
+.face{
+  width: 17%;
+    margin-top: 21px;
+margin: 0 auto;
+}
+.foo1{
+  margin: 0 auto;
+  width: 54%;
+
+}
+.face:hover img{
+  width: 70px;
+}
+.foot:hover {
+  width:30%;
+}
+
+  
+  
